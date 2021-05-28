@@ -6,9 +6,9 @@
 
 body {
   font: 16px "Open Sans", sans-serif;
-  background: white;
-  color: #555;
-  padding: 2rem 1.5rem;
+  background: #ffffff;
+  color: #555555;
+  padding: 0 1.5rem 2rem;
   line-height: 1.75;
 }
 
@@ -189,4 +189,7 @@ button:hover {
   color: white;
 }
 
-header{margin:5em 0}
+header{
+  margin: 0 -9999rem;
+  padding: 5rem -9999rem;
+  background: #f5f6ee}
