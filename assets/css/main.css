@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-* > :first-child {
-  margin-top: 0;
-}
-
-* > :last-child {
-  margin-bottom: 0;
-}
-
 body {
   font: 16px "Open Sans", sans-serif;
   background: white;
@@ -22,7 +14,7 @@ body {
 
 @media all and (min-width: 40rem) {
   body {
-    padding: 5rem 0;
+    padding: 3rem 0;
     margin: 0 auto;
     max-width: 37rem;
   }
@@ -62,6 +54,7 @@ a {
 
 a:hover {
   color: #4080bf;
+  text-decoration: underline;
 }
 
 hr {
