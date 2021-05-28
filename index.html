@@ -4,14 +4,20 @@ title: null
 ---
 
 <article>
+<ul>
+<li>
 {% for post in site.posts limit:1 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 {{post.excerpt}}
 {% endfor %}
+</li>
+<li>
 {% for post in site.posts offset:1 limit:4 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 {{post.excerpt}}
 {% endfor %}
+</li>
+</ul>
 </article>
