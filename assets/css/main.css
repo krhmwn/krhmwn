@@ -8,13 +8,13 @@ body {
   font: 16px "Open Sans", sans-serif;
   background: #ffffff;
   color: #555555;
-  padding: 0 1.5rem 2rem;
+  padding: 0 1.5rem 4rem;
   line-height: 1.75;
 }
 
 @media all and (min-width: 40rem) {
   body {
-    padding: 0 0 4rem;
+    padding: 0 0 3rem;
     margin: 0 auto;
     max-width: 37rem;
   }
@@ -191,5 +191,5 @@ button:hover {
 
 header{
   margin: 0 -9999rem;
-  padding: 5rem 9999rem;
+  padding: 4rem 9999rem;
   background: #f5f6ee}
