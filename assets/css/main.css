@@ -14,7 +14,7 @@ body {
 
 @media all and (min-width: 40rem) {
   body {
-    padding: 3rem 0;
+    padding: 0 0 4rem;
     margin: 0 auto;
     max-width: 37rem;
   }
@@ -191,5 +191,5 @@ button:hover {
 
 header{
   margin: 0 -9999rem;
-  padding: 5rem -9999rem;
+  padding: 5rem 9999rem;
   background: #f5f6ee}
