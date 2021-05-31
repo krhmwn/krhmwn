@@ -60,7 +60,7 @@ color:#555
 }
 
 ul,ol {
-margin:1.75rem 0
+padding-inline-start: unset;
 }
 
 li {
@@ -177,6 +177,15 @@ color:#fff
 header {
 padding:2.5rem 1.25rem;
 background:#f5f6ee
+}
+
+.menu ul {
+display: flex;
+list-style: decimal;
+}
+
+.menu li {
+margin: 0 1em 0;
 }
 
 section {
