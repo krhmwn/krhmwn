@@ -192,6 +192,15 @@ section {
 padding:2rem 1.25rem;
 }
 
+.post ul {
+list-style: none;
+}
+
+.post li {
+border-bottom: 0.15em solid #f5f6ee;
+padding: 0.25em 0;
+}
+
 time {
 opacity: .75;
 font-size: 90%;
