@@ -198,12 +198,12 @@ list-style: none;
 }
 
 .post li {
-border-bottom: 0.15em solid #f5f6ee;
+border-top: 0.15em solid #f5f6ee;
 padding: 0.25em 0;
 }
 
-.post li:last-child {
-border-bottom: 0 none;
+.post li:first-child {
+border-top: 0 none;
 }
 
 time {
@@ -212,7 +212,7 @@ font-size: 90%;
 }
 
 footer {
-padding:2rem 1.25rem;
+padding:3rem 1.25rem;
 background:#f5f6ee;
 text-align:center; 
 }
