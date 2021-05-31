@@ -1,5 +1,4 @@
 auto: true
 title: Ook Rahmawan
-markdown: rdiscount
 permalink: /:title
-rdiscount extensions: [smart]
+
