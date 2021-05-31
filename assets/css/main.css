@@ -174,8 +174,12 @@ color:#fff
 }
 
 header {
-padding:4rem 0;
+padding:4rem 1rem;
 background:#f5f6ee
+}
+
+section {
+padding:3rem 1rem;
 }
 
 @media all and (min-width: 40rem) {
