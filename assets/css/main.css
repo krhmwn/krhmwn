@@ -206,6 +206,11 @@ opacity: .75;
 font-size: 90%;
 }
 
+footer {
+padding:2rem 1.25rem;
+background:#f5f6ee
+}
+
 @media all and (min-width: 40rem) {
 section {
 margin:0 auto;
