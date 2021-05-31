@@ -175,18 +175,24 @@ color:#fff
 }
 
 header {
-padding:2.5rem 1rem;
+padding:2.5rem 1.25rem;
 background:#f5f6ee
 }
 
 section {
-padding:2rem 1rem;
+padding:2rem 1.25rem;
+}
+
+time {
+opacity: .75;
+font-size: 90%;
 }
 
 @media all and (min-width: 40rem) {
 section {
 margin:0 auto;
-max-width:37rem
+max-width:37rem;
+padding: 3rem 0rem;
 }
 
 .masthead {
