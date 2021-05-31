@@ -3,7 +3,8 @@ layout: default
 ---
 
 <article>
-<h2>{{ page.title }}</h2>
+{% if page.link %}<h2><a href="{{ page.link }}">{{page.title}}</a> &rarr;</h2>
+{% else %}<h2 class="posttitle">{{page.title}}</h2>{% endif %}
 <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d-%m-%Y" }}</time>
 <p>{{ content }}</p>
 </article>
