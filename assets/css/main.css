@@ -212,7 +212,6 @@ opacity: .75;
 font-size: 90%;
 }
 
-}
 footer {
 padding:3rem 1.25rem;
 background:#f5f6ee;
@@ -232,6 +231,7 @@ padding: 3rem 0rem;
 display:flex;
 justify-content:space-between;
 margin:0 auto;
-align-items:baseline
+align-items:baseline;
+max-width:42rem;
 }
 }
