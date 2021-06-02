@@ -176,7 +176,7 @@ color:#fff
 }
 
 header {
-padding:2.5rem 1.25rem;
+padding:3rem 1.25rem;
 background:#f5f6ee
 }
 
@@ -190,7 +190,7 @@ margin: 0 1em 0;
 }
 
 section {
-padding:2rem 1.25rem;
+padding: 2rem 1.25rem;
 }
 
 .post ul {
@@ -217,10 +217,10 @@ background:#f5f6ee;
 text-align:center; 
 }
 
-@media all and (min-width: 40rem) {
+@media all and (min-width: 45rem) {
 section {
 margin:0 auto;
-max-width:37rem;
+max-width:42rem;
 padding: 3rem 0rem;
 }
 
@@ -228,7 +228,7 @@ padding: 3rem 0rem;
 display:flex;
 justify-content:space-between;
 margin:0 auto;
-max-width:37rem;
+max-width:42rem;
 align-items:baseline
 }
 }
