@@ -216,6 +216,9 @@ footer {
 padding:3rem 1.25rem;
 background:#f5f6ee;
 text-align:center; 
+display:flex;
+justify-content:space-between;
+align-items:baseline
 }
 
 @media all and (min-width: 45rem) {
