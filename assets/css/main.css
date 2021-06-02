@@ -176,11 +176,6 @@ background:#666;
 color:#fff
 }
 
-header {
-padding:3rem 1.25rem;
-background:#f5f6ee
-}
-
 .menu ul {
 display: flex;
 list-style: decimal;
@@ -212,7 +207,7 @@ opacity: .75;
 font-size: 90%;
 }
 
-footer {
+header, footer {
 padding:3rem 1.25rem;
 background:#f5f6ee;
 display:flex;
@@ -227,11 +222,4 @@ max-width:42rem;
 padding: 3rem 0rem;
 }
 
-.masthead {
-display:flex;
-justify-content:space-between;
-margin:0 auto;
-align-items:baseline;
-max-width:42rem;
-}
 }
