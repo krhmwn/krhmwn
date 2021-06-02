@@ -217,7 +217,7 @@ padding:3rem 1.25rem;
 background:#f5f6ee;
 text-align:center; 
 display:flex;
-justify-content:space-between;
+justify-content:space-around;
 align-items:baseline
 }
 
@@ -230,7 +230,7 @@ padding: 3rem 0rem;
 
 .masthead {
 display:flex;
-justify-content:space-around;
+justify-content:space-between;
 margin:0 auto;
 max-width:42rem;
 align-items:baseline
