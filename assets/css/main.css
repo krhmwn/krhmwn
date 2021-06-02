@@ -211,7 +211,12 @@ time {
 opacity: .75;
 font-size: 90%;
 }
-
+.masthead {
+display:flex;
+justify-content:space-around;
+margin:0 auto;
+align-items:baseline
+}
 footer {
 padding:3rem 1.25rem;
 background:#f5f6ee;
@@ -228,11 +233,5 @@ max-width:42rem;
 padding: 3rem 0rem;
 }
 
-.masthead {
-display:flex;
-justify-content:space-between;
-margin:0 auto;
-max-width:42rem;
-align-items:baseline
-}
+
 }
