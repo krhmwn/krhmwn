@@ -8,12 +8,12 @@ title: Ook Rahmawan
 <ul>{% for post in site.posts limit:1 %}
 <li>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<time datetime="{{ post.date | date: "%d-%m-%Y" }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 {{post.excerpt}}
-</li>
-{% endfor %}
-{% for post in site.posts offset:1 limit:100 %}
+</li>{% endfor %}{% for post in site.posts offset:1 limit:100 %}
 <li class="card">
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<time datetime="{{ post.date | date: "%d-%m-%Y" }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 {{post.excerpt}}
 </li>{% endfor %}
 </ul>
