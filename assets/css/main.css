@@ -186,7 +186,7 @@ list-style: none;
 
 .post li {
 border-top: 0.15em solid #f5f6ee;
-padding: 0.25em 0;
+padding: 0.25em 0.5em;
 }
 
 .post li:first-child {
@@ -194,7 +194,7 @@ border-top: 0 none;
 }
 
 .card {
-width:calc(90% / 2);
+width:calc(96% / 2);
 height:auto;
 display:inline-block;
 vertical-align:top
