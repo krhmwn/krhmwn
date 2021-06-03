@@ -11,12 +11,9 @@ title: Ook Rahmawan
 {{post.excerpt}}
 </li>
 {% endfor %}
-{% for post in site.posts offset:1 limit:1 %}
-<li>
+{% for post in site.posts offset:1 limit:2 %}
+<li class="card>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 </li>{% endfor %}
-<li>
-<h2><a href="/archive">Arsip Blog</a></h2>
-</li>
 </ul>
 </article>
