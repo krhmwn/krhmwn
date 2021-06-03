@@ -197,10 +197,6 @@ border-top: 0 none;
 padding-left: 1.5em;
 }
 
-.archive li:last-child {
-padding-left: 0;
-}
-
 .card {
 width:calc(98% / 2);
 height:auto;
