@@ -223,5 +223,10 @@ margin:0 auto;
 max-width:42rem;
 padding: 3rem 0;
 }
-
+.card {
+width:calc(100% / 1);
+height:auto;
+display:block;
+vertical-align:top
+}
 }
