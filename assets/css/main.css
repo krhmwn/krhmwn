@@ -198,9 +198,9 @@ padding-left: 1.5em;
 }
 
 .card {
-width:calc(98% / 2);
+width:calc(100% / 1);
 height:auto;
-display:inline-block;
+display:block;
 vertical-align:top
 }
 
@@ -223,10 +223,12 @@ margin:0 auto;
 max-width:42rem;
 padding: 3rem 0;
 }
+
 .card {
-width:calc(100% / 1);
+width:calc(98% / 2);
 height:auto;
-display:block;
+display:inline-block;
 vertical-align:top
 }
+
 }
