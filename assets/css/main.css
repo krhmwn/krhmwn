@@ -186,7 +186,7 @@ list-style: none;
 
 .post li {
 border-top: 0.15em solid #f5f6ee;
-padding: 0.25em 0.5em;
+padding: 0.25em 0.5em 0.25em 0;
 }
 
 .post li:first-child {
