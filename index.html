@@ -11,7 +11,7 @@ title: Ook Rahmawan
 {{post.excerpt}}
 </li>
 {% endfor %}
-{% for post in site.posts offset:1 limit:2 %}
+{% for post in site.posts offset:1 limit:100 %}
 <li class="card">
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 {{post.excerpt}}
