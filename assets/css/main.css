@@ -193,7 +193,7 @@ padding: 0.25em 0;
 border-top: 0 none;
 }
 
-.post li:last-child {
+.post li:nth-child(2n+0) {
 padding-left: 0;
 }
 
@@ -231,7 +231,7 @@ display:inline-block;
 vertical-align:top
 }
 
-.post li:last-child {
+.post li:nth-child(2n+0) {
 padding-left: 1.5em;
 }  
    
