@@ -231,4 +231,8 @@ display:inline-block;
 vertical-align:top
 }
 
+.post li:last-child {
+padding-left: 0;
+}  
+   
 }
