@@ -20,11 +20,11 @@ line-height:1.25;
 
 h4 {
 font-size:1.125em;
-display:inline-block;
 }
 
 h3 {
-font-size:1.25em
+font-size:1.25em;
+display:inline-block;
 }
 
 h2 {
