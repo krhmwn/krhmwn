@@ -193,6 +193,13 @@ padding: 0.25em 0;
 border-top: 0 none;
 }
 
+.card {
+width:calc(90% / 2);
+height:auto;
+display:inline-block;
+vertical-align:top
+}
+
 time {
 opacity: .75;
 font-size: 90%;
