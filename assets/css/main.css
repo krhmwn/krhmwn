@@ -180,25 +180,29 @@ section {
 padding: 2.5rem 1.25rem;
 }
 
-.post ul, .archive ul {
+.archive ul {
 list-style: none;
 }
 
-.post li, .archive li {
+.archive li {
 border-top: 0.15em solid #f5f6ee;
 padding: 0.25em 0;
 }
 
-.post li:first-child, .archive li:first-child  {
+.archive li:first-child  {
 border-top: 0 none;
 }
 
-
-.card {
+.card li{
 width:calc(100% / 1);
 height:auto;
 display:block;
-vertical-align:top
+vertical-align:top;
+border-top: 0.15em solid #f5f6ee;
+}
+
+.card li:first-child{
+border-top: 0 none
 }
 
 time {
@@ -221,18 +225,18 @@ max-width:45rem;
 padding: 3rem 0;
 }
 
-.card {
+.card li{
 width:calc(96% / 2);
 height:auto;
 display:inline-block;
 vertical-align:top
 }
 
-.card:nth-child(3n+1) {
+.card li:nth-child(3n+1) {
 width:calc(99% / 1);
 }  
 
-.card:nth-child(3n+3) {
+.card li:nth-child(3n+3) {
 margin-left: 1.25em;
 }
 }
