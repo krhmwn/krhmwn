@@ -5,7 +5,12 @@ title: Ook Rahmawan
 
 <article class="card">
 <h2>Blog</h2>
-<ul>{% for post in site.posts %}
+<ul>{% for post in site.posts limit:4 %}
+<li>
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<time datetime="{{ post.date | date: "%d-%m-%Y" }}">{{ post.date | date: "%d-%m-%Y" }}</time>
+{{post.excerpt}}</li>{% endfor %}
+{% for post in site.posts offset:4 limit:100 %}
 <li>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <time datetime="{{ post.date | date: "%d-%m-%Y" }}">{{ post.date | date: "%d-%m-%Y" }}</time>
