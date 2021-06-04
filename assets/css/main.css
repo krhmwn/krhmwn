@@ -222,7 +222,7 @@ padding: 3rem 0;
 }
 
 .card {
-width:calc(99% / 2);
+width:calc(96% / 2);
 height:auto;
 display:inline-block;
 vertical-align:top
@@ -231,5 +231,8 @@ vertical-align:top
 .card:nth-child(3n+1) {
 width:calc(99% / 1);
 }  
-   
+
+.card:nth-child(3n+3) {
+margin-left: 1.25em;
+}
 }
