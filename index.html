@@ -7,10 +7,10 @@ title: Ook Rahmawan
 <h2>Blog</h2>
 <ul>{% for post in site.posts limit:3 %}
 <li>
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>{{post.excerpt}}</li>{% endfor %}
 {% for post in site.posts offset:3 limit:100 %}<li>
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 </li>
 {% endfor %}</ul>
