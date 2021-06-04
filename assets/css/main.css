@@ -193,9 +193,6 @@ padding: 0.25em 0;
 border-top: 0 none;
 }
 
-.post li:nth-child(2n+3) {
-padding-left: 0;
-}
 
 .card {
 width:calc(100% / 1);
@@ -225,14 +222,14 @@ padding: 3rem 0;
 }
 
 .card {
-width:calc(98% / 2);
+width:calc(99% / 2);
 height:auto;
 display:inline-block;
 vertical-align:top
 }
 
-.post li:nth-child(2n+3) {
-padding-left: 1.5em;
+.card:nth-child(3n+1) {
+width:calc(99% / 1);
 }  
    
 }
