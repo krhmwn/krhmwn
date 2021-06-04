@@ -48,9 +48,9 @@ text-decoration:underline
 }
 
 hr {
-margin:3em 0;
-height:2px;
-background:#ddd;
+margin:3rem 0;
+height:0.15em;
+background:#f5f6ee;
 border:none
 }
 
