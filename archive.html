@@ -3,9 +3,12 @@ layout: default
 title: Arsip Blog
 ---
 
-<article class="archive">
+<article class="card">
 <h2>Arsip Blog</h2>
 <ul>{% for post in site.posts %}
-<li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><time datetime="{{ post.date | date: '%Y-%m-%d' }}"> {{ post.date | date: "%d-%m-%Y" }}</time></li>
+<li>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>{{post.excerpt}}</li>{% endfor %}
+</li>
 {% endfor %}</ul>
 </article>
