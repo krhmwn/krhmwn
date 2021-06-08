@@ -1,5 +1,6 @@
 auto: true
 title: Ook Rahmawan
+name: Ook Rahmawan
 permalink: /:title
 excerpt_separator: <!--more-->
 google_analytics: UA-180699504-1
