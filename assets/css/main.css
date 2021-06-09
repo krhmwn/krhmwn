@@ -20,12 +20,14 @@ abbr[title]{text-decoration:none;border-bottom:1px dotted #555}
 q{font-style:italic}
 q:before{content:""}
 q:after{content:""}
-table,thead,tbody,th,td,tr{display:block}
-th{text-align:right}
-table{position:relative}
-thead{float:left;white-space:nowrap}
-tbody{overflow-x:auto;overflow-y:hidden;position:relative;white-space:nowrap}
-tr{display:inline-block;vertical-align:top}
+table{margin:1.75rem auto;border-collapse:collapse;width:100%}
+table th{font-weight:600}
+table td,table th{text-align:left;padding:.5em 1em;border:1px solid #ddd}
+table caption{text-align:left;font-size:.9rem;padding-bottom:.5rem;font-style:italic}
+dl{margin:1.75rem 0}
+dt,dd{margin:.5em 0}
+dt{font-weight:600;margin-bottom:0}
+dd{padding-left:1em;margin-top:0}
 section{padding:2.5rem 1.25rem}
 .card li{width:calc(100% / 1);height:auto;display:block;vertical-align:top;border-top:.15em solid #f5f6ee}
 .card li:first-child{border-top:0 none}
@@ -39,12 +41,5 @@ section{margin:0 auto;max-width:45rem;padding:3rem 0}
 .card li{width:calc(96% / 2);height:auto;display:inline-block;vertical-align:top}
 .card li:nth-child(3n+1){width:calc(99% / 1)}
 .card li:nth-child(3n+3){margin-left:1.25em}
-table{margin:1.75rem auto;border-collapse:collapse;width:100%}
-table th{font-weight:600}
-table td,table th{text-align:left;padding:.5em 1em;border:1px solid #ddd}
-table caption{text-align:left;font-size:.9rem;padding-bottom:.5rem;font-style:italic}
-dl{margin:1.75rem 0}
-dt,dd{margin:.5em 0}
-dt{font-weight:600;margin-bottom:0}
-dd{padding-left:1em;margin-top:0}
+
 }
