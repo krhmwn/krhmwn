@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 *{box-sizing:border-box}
-body{font:1.125em "Open Sans",sans-serif;background:#fff;color:#555;line-height:1.75;margin:0 auto}
+body{font:1.125em "Open Sans",sans-serif;background:#fff;color:#333;line-height:1.75;margin:0 auto}
 h1,h2,h3,h4,h5,h6{font-weight:500;line-height:1.25}
 h4{font-size:1.125em}
 h3{font-size:1.35em}
@@ -10,7 +10,7 @@ a{color:#69c;text-decoration:none;overflow-wrap:break-word;word-wrap:break-word}
 a:hover{color:#4080bf;text-decoration:underline}
 hr{margin:3rem 0;height:.15em;background:#f5f6ee;border:none}
 blockquote{padding:1em;margin:1.75rem 0;background:#f2f2f2;color:#555}
-ul,ol{padding-inline-start:unset}
+ul,ol{padding-inline-start:inherit}
 li{margin:.5em 0}
 img{display:block;max-width:100%;margin:1.75rem 0}
 code{background:#faebeb;color:#dd3c3c;padding:.2em .4em;font-family:"Consolas","Monaco",monospace;font-size:.8rem}
@@ -42,4 +42,33 @@ section{margin:0 auto;max-width:45rem;padding:3rem 0}
 .card li{width:calc(96% / 2);height:auto;display:inline-block;vertical-align:top}
 .card li:nth-child(3n+1){width:calc(99% / 1)}
 .card li:nth-child(3n+3){margin-left:1.25em}
+  
+table,thead,tbody,th,td,tr {
+display:block
+}
+
+th {
+text-align:right
+}
+
+table {
+position:relative
+}
+
+thead {
+float:left;
+white-space:nowrap
+}
+
+tbody {
+overflow-x:auto;
+overflow-y:hidden;
+position:relative;
+white-space:nowrap
+}
+
+tr {
+display:inline-block;
+vertical-align:top
+}
 }
